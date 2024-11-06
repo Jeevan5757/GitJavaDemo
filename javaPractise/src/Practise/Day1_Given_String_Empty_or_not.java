@@ -23,7 +23,5 @@ public class Day1_Given_String_Empty_or_not {
 		System.out.println("String 1 is empty: " + isEmptyString.test(str1));
 		System.out.println("\nString 2:" + str2);
 		System.out.println("String 2 is empty: " + isEmptyString.test(str2));
-		System.out.println("new development");
-		System.out.println("new development2");
 	}
 }

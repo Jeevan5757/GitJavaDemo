@@ -1,0 +1,10 @@
+package Practise;
+
+public class Day5_MethodOverridingSuperKeyword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package Practise;
+
+public class Day2_Printf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.printf("This is formated String",123);
+		System.out.printf("This is formated String %d",123);
+
+	}
+
+}

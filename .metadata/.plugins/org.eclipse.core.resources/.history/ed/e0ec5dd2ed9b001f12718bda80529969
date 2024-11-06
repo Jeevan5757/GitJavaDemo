@@ -1,0 +1,18 @@
+package Practise;
+
+abstract class Book{
+	public abstract void getBookNmae();
+	public void science() {
+		System.out.println("Science Book");
+	}
+}
+
+
+public class Day5_AbstractClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

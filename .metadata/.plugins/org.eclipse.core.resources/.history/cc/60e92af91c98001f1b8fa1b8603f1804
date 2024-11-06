@@ -1,0 +1,27 @@
+package Practise;
+
+public class Day2_Printf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		System.out.printf("This is formated String",123);
+//		System.out.printf("This is formated String %d",123); //123 will add at last where i will give %d there 123 will print
+		
+		//conversion character
+		boolean Myboolean = true;
+		char mychar = '@';
+		String mystring = "jeevan";
+		int myint = 50;
+		Double mydouble = 10.40;
+//		System.out.printf("%b", Myboolean);
+//		System.out.printf("%c", mychar);
+//		System.out.printf("%s", mystring);
+//		System.out.printf("%d", myint);
+//		System.out.printf("%f", mydouble);
+		
+		//width
+		System.out.printf("Hello %15s", mystring);
+
+	}
+
+}

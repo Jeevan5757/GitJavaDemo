@@ -1,0 +1,43 @@
+package Practise;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.util.Calendar;
+
+public class Day4_Date_Time {
+//	
+//	public static void findDay(int month, int day, int year) {
+//		Calendar cal = Calendar.getInstance();
+//
+//    }
+//
+	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+//        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+//
+//        String[] firstMultipleInput = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
+//        System.out.println(firstMultipleInput);
+//
+//        int month = Integer.parseInt(firstMultipleInput[0]);
+//
+//        int day = Integer.parseInt(firstMultipleInput[1]);
+//
+//        int year = Integer.parseInt(firstMultipleInput[2]);
+//
+//        String res = Result.findDay(month, day, year);
+//
+//        bufferedWriter.write(res);
+//        bufferedWriter.newLine();
+//
+//        bufferedReader.close();
+//        bufferedWriter.close();
+//		
+	Calendar cal = Calendar.getInstance();
+	System.out.println(cal);
+
+	}
+
+}

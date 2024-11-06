@@ -1,0 +1,27 @@
+package Practise;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.util.Calendar;
+import java.time.LocalDate;
+
+public class Day4_Date_Time {
+
+	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+
+//	Calendar cal = Calendar.getInstance();
+//	System.out.println(cal);
+//	cal.set(Calendar.YEAR, 2024);
+//	cal.set(Calendar.MONTH, 5);
+//	cal.set(Calendar.DAY_OF_MONTH, 14);
+		LocalDate date = LocalDate.of(2024, 5, 15);
+		System.out.println(date.getDayOfWeek());
+
+
+	}
+
+}

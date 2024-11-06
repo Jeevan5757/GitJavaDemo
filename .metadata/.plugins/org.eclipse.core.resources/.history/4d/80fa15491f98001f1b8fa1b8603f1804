@@ -1,0 +1,31 @@
+package Practise;
+import java.util.Scanner;
+public class Day2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Scanner scan = new Scanner(System.in);
+//		 int i = scan.nextInt();
+//		 scan.nextLine();
+//		 String s = scan.nextLine();
+//		 Double d = scan.nextDouble();
+//		 scan.close();
+//
+//	        // Write your code here.
+//
+//	        System.out.println("String: " + s);
+//	        System.out.println("Double: " + d);
+//	        System.out.println("Int: " + i);
+		
+		  Scanner sc=new Scanner(System.in);
+          System.out.println("================================");
+          for(int i=0;i<3;i++){
+              String s1=sc.next();
+              int x=sc.nextInt();
+              System.out.printf("%-15s%d%n",s1,x);
+          }
+          System.out.println("================================");
+
+	}
+
+}

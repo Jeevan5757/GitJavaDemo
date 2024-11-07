@@ -37,6 +37,7 @@ public class Day6_java_instance {
 	         if(s.equals("Hacker"))mylist.add(new Hacker());
 	      }
 	      System.out.println(count(mylist));
+	      System.out.println("I am changing code from person1");
 
 	}
 

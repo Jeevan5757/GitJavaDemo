@@ -51,7 +51,6 @@ public class Day6_JavaIterator {
 	         Object element = it.next();
 	         System.out.println((String)element);
 	      }
-	      System.out.println("I am uploading the code after cloning");
 
 	}
 
